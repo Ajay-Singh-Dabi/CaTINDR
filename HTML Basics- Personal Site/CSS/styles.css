@@ -11,6 +11,8 @@ hr {
     width: 8%;
 }
 
+/*=============TAG SELECTOR=========================*/
+
 img {
     height: 150px;
 }
@@ -22,3 +24,25 @@ h1 {
 h3 {
     color: #66BFBF;
 }
+
+/*=============CLASS SELECTOR=========================*/
+
+.contact {
+    font-size: medium;
+    background-color: lightcyan;
+
+}
+
+.address {
+    font-size: medium;
+    background-color: lightblue;
+}
+
+
+/*=============ID SELECTOR=========================*/
+
+#number {
+    font-size: medium;
+    background-color: lightcyan;
+}
+
