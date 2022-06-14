@@ -29,15 +29,12 @@ h3 {
     padding-top: 100px;
 }
 
-.middle-container {
-
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
-    
-
-.bottom-container {
-
-}
-
    
 .pro {
     text-decoration: underline;
@@ -58,3 +55,15 @@ h3 {
 .footer-link {
     color: #11999E;
 }
+
+.android-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.web-image {
+    width: 40%;
+    float: right;
+    margin-left: 30px ;
+}
+
