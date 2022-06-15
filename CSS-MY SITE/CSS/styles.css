@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', sans-serif;
@@ -15,6 +16,7 @@ h2 {
     color: #66BFBF;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 
 }
 
@@ -23,21 +25,41 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted grey;
+    border-bottom: none;
+    width: 8%;
+    border-width: 8px;
+    margin: 100px auto;
+}
+
 .top-container {
     background-color: #E4F5F9;
     position: relative;
     padding-top: 100px;
 }
 
+.middle-container {
+    margin: 100px 0;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
    
 .pro {
     text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .bottom-cloud {
@@ -67,3 +89,6 @@ h3 {
     margin-left: 30px ;
 }
 
+.contact-message {
+    
+}
