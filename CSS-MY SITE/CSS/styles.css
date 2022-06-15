@@ -29,6 +29,22 @@ p {
     line-height: 2;
 }
 
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+
 hr {
     border: dotted grey;
     border-bottom: none;
@@ -45,6 +61,11 @@ hr {
 
 .middle-container {
     margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .skill-row {
