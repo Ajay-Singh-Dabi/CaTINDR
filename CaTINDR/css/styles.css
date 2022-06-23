@@ -88,7 +88,6 @@ a.navbar-brand {
 
 /* Testimonial Section */
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #EF8172;
     color: #FFF;
@@ -98,6 +97,10 @@ a.navbar-brand {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
