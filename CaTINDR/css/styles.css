@@ -18,6 +18,12 @@ h3 {
     font-family: "Montserrat-Bold";
 }
 
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 p {
     color: #8F8F8F;
 }
@@ -78,4 +84,18 @@ a.navbar-brand {
 
 .icon:hover{
     color: #FF4C68;
+}
+
+/* Testimonial Section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #EF8172;
+    color: #FFF;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
