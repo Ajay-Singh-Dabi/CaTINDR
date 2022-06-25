@@ -5,6 +5,7 @@ body {
 #title {
     background-color: #FF4C68;
     color: #FFF;
+    padding-bottom: 300px;
 }
 
 
@@ -64,12 +65,20 @@ a.navbar-brand {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
+.container-fluid {
+    padding-bottom: 15%;
+}
 
 /* Features Section */
 #features {
     padding: 7% 15%;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
