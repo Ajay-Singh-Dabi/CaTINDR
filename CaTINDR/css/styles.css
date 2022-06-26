@@ -13,15 +13,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat-Bold";
 }
 
-h3 {
-    font-size: 1.5rem;
-}
-
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 p {
     color: #8F8F8F;
 }
@@ -31,6 +22,11 @@ p {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: bold;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .navbar {
@@ -89,6 +85,9 @@ a.nav-link {
     text-align: center;
     padding: 5%;
 }
+.feature-title {
+    font-size: 1.5rem;
+}
 
 .icon {
     color: #EF8172;
@@ -104,6 +103,11 @@ a.nav-link {
     text-align: center;
     background-color: #EF8172;
     color: #FFF;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -136,8 +140,14 @@ a.nav-link {
     text-align: center;
 }
 
+
 .pricing-column{
     padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* CTA Section */
@@ -148,11 +158,6 @@ a.nav-link {
     padding: 7% 15%;
 }
 
-.cta-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 
 #footer {
     padding: 7% 15%;
