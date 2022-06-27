@@ -3,8 +3,6 @@ body {
 }
 
 #title {
-    background-color: #FF4C68;
-    color: #FFF;
     padding-bottom: 300px;
 }
 
@@ -27,6 +25,15 @@ p {
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
+}
+
+.colored-section {
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+.white-section {
+    background-color: #FFF;
 }
 
 .navbar {
